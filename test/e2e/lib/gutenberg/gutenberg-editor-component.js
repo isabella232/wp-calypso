@@ -362,6 +362,9 @@ export default class GutenbergEditorComponent extends AsyncBaseContainer {
 				prefix = 'coblocks-';
 				blockClass = 'gallery-masonry';
 				break;
+			case 'Premium Content':
+				blockClass = 'premium-content-container';
+				break;
 		}
 
 		const selectorAriaLabel = ariaLabel || `Block: ${ title }`;
