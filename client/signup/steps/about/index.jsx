@@ -526,6 +526,7 @@ class AboutStep extends Component {
 		const subHeaderText = translate(
 			'Please answer these questions so we can help you make the site you need.'
 		);
+		translate( 'TEST_NEW_STRING_EXTRACTION_!!!_DO_NOT_MERGE_!!!' );
 
 		return (
 			<StepWrapper
